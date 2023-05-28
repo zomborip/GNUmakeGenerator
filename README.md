@@ -1,17 +1,17 @@
 # GNU Make Generator
-This CLI generates C, C++ fiels and Makefiles.
+This CLI generates C, C++ files and Makefiles.
 
 ## Download
 You can find the downloadable CLI programs at the **bin** folder.
 
 ## Usage
 **CLI OPTIONS**:
-+ `make c` *(creates a Makefile for GCC compilation)*
-+ `make cpp` *(creates a Makefile for G++ compilation)*
-+ `[filename] c`   *(creates a [filename].c file)*
-+ `[filename] cpp` *(creates a [filename].cpp file)*
-+ `[filename] h`   *(creates a [filename].h file)*
-+ `[filename] hpp` *(creates a [filename].hpp file)*
++ `gen make c` *(creates a Makefile for GCC compilation)*
++ `gen make cpp` *(creates a Makefile for G++ compilation)*
++ `gen [filename] c`   *(creates a [filename].c file)*
++ `gen [filename] cpp` *(creates a [filename].cpp file)*
++ `gen [filename] h`   *(creates a [filename].h file)*
++ `gen [filename] hpp` *(creates a [filename].hpp file)*
 
 **Makefile OPTIONS**
 + `make` *(builds the project from you Makefile)*
